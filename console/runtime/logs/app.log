@@ -1,0 +1,144 @@
+2015-05-25 23:34:58 [-][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDOStatement::execute(): MySQL server has gone away' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Command.php:771
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDOStatement::e...', 'E:\\OpenServer\\d...', 771, Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Command.php(771): PDOStatement->execute()
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Migration.php(248): yii\db\Command->execute()
+#3 E:\OpenServer\domains\advanced\console\migrations\m130524_201442_init.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(492): m130524_201442_init->up()
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#10 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#11 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#12 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#13 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\OpenServer\domains\advanced\yii(31): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'PDOStatement::execute(): MySQL server has gone away
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255),
+	`email` varchar(255) NOT NULL,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Command.php(779): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'CREATE TABLE `u...')
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\Migration.php(248): yii\db\Command->execute()
+#2 E:\OpenServer\domains\advanced\console\migrations\m130524_201442_init.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(492): m130524_201442_init->up()
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#10 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#11 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#12 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\OpenServer\domains\advanced\yii(31): yii\base\Application->run()
+#14 {main}
+Additional Information:
+
+2015-05-25 23:33:19 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Anton\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOGVARCE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00010646'
+    'ConEmuBaseDir' => 'E:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '141126'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'E:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00010648'
+    'ConEmuDrive' => 'E:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x0A3902B6'
+    'ConEmuPID' => '4416'
+    'ConEmuServerPID' => '6128'
+    'ConEmuWorkDir' => 'e:\\openserver'
+    'ConEmuWorkDrive' => 'e:'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'e:\\openserver'
+    'HOMEDRIVE' => 'e:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Anton\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOGVARCE'
+    'MAGICK_CODER_FILTER_PATH' => 'e:\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'e:\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'e:\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'e:\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'e:\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'e:\\openserver\\modules\\http\\Apache-2.2\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\openserver\\modules\\conemu;E:\\openserver\\modules\\conemu\\ConEmu;e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'e:\\openserver\\modules\\php\\PHP-5.4\\php.exe'
+    'PHPDIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\'
+    'PHPRC' => 'e:\\openserver\\modules\\php\\PHP-5.4'
+    'PHP_BIN' => 'e:\\openserver\\modules\\php\\PHP-5.4\\php.exe'
+    'PHP_BINARY' => 'e:\\openserver\\modules\\php\\PHP-5.4\\php.exe'
+    'PHP_BINDIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\'
+    'PHP_INI' => 'e:\\openserver\\modules\\php\\PHP-5.4\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'e:\\openserver\\modules\\php\\PHP-5.4\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'e:\\openserver\\modules\\php\\PHP-5.4\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'e:\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'e:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'Hogvarce'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Hogvarce'
+    'USERNAME' => 'Антон'
+    'USERPROFILE' => 'C:\\Users\\Anton'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'e:\\OpenServer\\domains\\advanced\\'
+    'PHP_SELF' => 'e:\\OpenServer\\domains\\advanced\\yii'
+    'SCRIPT_NAME' => 'e:\\OpenServer\\domains\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'e:\\OpenServer\\domains\\advanced\\yii'
+    'PATH_TRANSLATED' => 'e:\\OpenServer\\domains\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432585999.9897
+    'REQUEST_TIME' => 1432585999
+    'argv' => [
+        0 => 'e:\\OpenServer\\domains\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]

@@ -1,0 +1,2890 @@
+2015-06-14 20:39:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pages/login' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/login', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-14 20:39:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mscu9e6ktihs99v9asvmqieel6'
+    '_csrf' => '3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=mscu9e6ktihs99v9asvmqieel6; _csrf=3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '7854'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434303595.938
+    'REQUEST_TIME' => 1434303595
+    'argv' => [
+        0 => 'r=pages%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-14 20:41:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pages' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pages', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/pages', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-14 20:41:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES\";}'
+    'PHPSESSID' => 'mscu9e6ktihs99v9asvmqieel6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES%22%3B%7D; PHPSESSID=mscu9e6ktihs99v9asvmqieel6'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '8063'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpages'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fpages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434303661.082
+    'REQUEST_TIME' => 1434303661
+    'argv' => [
+        0 => 'r=site%2Fpages'
+    ]
+    'argc' => 1
+]
+2015-06-14 20:41:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pages' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pages', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/pages', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-14 20:41:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES\";}'
+    'PHPSESSID' => 'mscu9e6ktihs99v9asvmqieel6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES%22%3B%7D; PHPSESSID=mscu9e6ktihs99v9asvmqieel6'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '8091'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpages'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fpages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434303673.412
+    'REQUEST_TIME' => 1434303673
+    'argv' => [
+        0 => 'r=site%2Fpages'
+    ]
+    'argc' => 1
+]
+2015-06-14 20:43:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pages/login' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/login', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-14 20:43:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES\";}'
+    'PHPSESSID' => 'mscu9e6ktihs99v9asvmqieel6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES%22%3B%7D; PHPSESSID=mscu9e6ktihs99v9asvmqieel6'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '8454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434303837.836
+    'REQUEST_TIME' => 1434303837
+    'argv' => [
+        0 => 'r=pages%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-14 20:44:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pages/login' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/login', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-14 20:44:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES\";}'
+    'PHPSESSID' => 'mscu9e6ktihs99v9asvmqieel6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=3577774909e98dca7041fd30a17654a17a43c08f4658f709e65324c78b1d755aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22el5PcPh0_eh4_8GqZ_k9tkyOxdhe2hES%22%3B%7D; PHPSESSID=mscu9e6ktihs99v9asvmqieel6'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '8454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434303849.11
+    'REQUEST_TIME' => 1434303849
+    'argv' => [
+        0 => 'r=pages%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:38:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: pages/login' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/login', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:38:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'sa17vhlcaneclneaqcca5a5534'
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sa17vhlcaneclneaqcca5a5534; _csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '46238'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397107.618
+    'REQUEST_TIME' => 1434397107
+    'argv' => [
+        0 => 'r=pages%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages%2Findex&PagesSearch%5Bid%5D=&PagesSearch%5Btitle%5D=&PagesSearch%5Blink%5D=&PagesSearch%5Bkeywords%5D=&PagesSearch%5Bdescr%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397771.6
+    'REQUEST_TIME' => 1434397771
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397772.031
+    'REQUEST_TIME' => 1434397772
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397773.156
+    'REQUEST_TIME' => 1434397773
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397778.335
+    'REQUEST_TIME' => 1434397778
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397781.31
+    'REQUEST_TIME' => 1434397781
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:49:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:49:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '48935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397785.585
+    'REQUEST_TIME' => 1434397785
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49079'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397804.555
+    'REQUEST_TIME' => 1434397804
+    'argv' => [
+        0 => 'r=user%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397805.996
+    'REQUEST_TIME' => 1434397805
+    'argv' => [
+        0 => 'r=site%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/default/lo...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=user%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397835.626
+    'REQUEST_TIME' => 1434397835
+    'argv' => [
+        0 => 'r=site%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49204'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397836.75
+    'REQUEST_TIME' => 1434397836
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49204'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397837.335
+    'REQUEST_TIME' => 1434397837
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49206'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397837.869
+    'REQUEST_TIME' => 1434397837
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49205'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397838.275
+    'REQUEST_TIME' => 1434397838
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397838.732
+    'REQUEST_TIME' => 1434397838
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397839.18
+    'REQUEST_TIME' => 1434397839
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397839.576
+    'REQUEST_TIME' => 1434397839
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49207'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397839.932
+    'REQUEST_TIME' => 1434397839
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397840.349
+    'REQUEST_TIME' => 1434397840
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49219'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397840.758
+    'REQUEST_TIME' => 1434397840
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397841.121
+    'REQUEST_TIME' => 1434397841
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49265'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397851.755
+    'REQUEST_TIME' => 1434397851
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:50:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "backend/site/default/login".' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/de...', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:50:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'backend/site/default/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49267'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=backend%2Fsite%2Fdefault%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397852.853
+    'REQUEST_TIME' => 1434397852
+    'argv' => [
+        0 => 'r=backend%2Fsite%2Fdefault%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:51:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/default' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('default', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/default', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:51:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/default'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r='
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49343'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdefault'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fdefault'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397870.767
+    'REQUEST_TIME' => 1434397870
+    'argv' => [
+        0 => 'r=site%2Fdefault'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:51:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/default' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('default', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/default', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:51:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/default'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdefault'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fdefault'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397873.107
+    'REQUEST_TIME' => 1434397873
+    'argv' => [
+        0 => 'r=site%2Fdefault'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:51:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/default' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('default', Array)
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/default', Array)
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-15 22:51:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/default'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Fdefault'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '49346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdefault'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fdefault'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434397880.737
+    'REQUEST_TIME' => 1434397880
+    'argv' => [
+        0 => 'r=site%2Fdefault'
+    ]
+    'argc' => 1
+]
+2015-06-15 22:54:00 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-15 22:54:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434398040.389
+    'REQUEST_TIME' => 1434398040
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:06:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-15 23:06:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52984'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434398805.125
+    'REQUEST_TIME' => 1434398805
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:11:12 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-15 23:11:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '14614'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399072.529
+    'REQUEST_TIME' => 1434399072
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:11:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-15 23:11:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '14692'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399089.66
+    'REQUEST_TIME' => 1434399089
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:11:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-15 23:11:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '14693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399090.444
+    'REQUEST_TIME' => 1434399090
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:13:06 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::role' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('role')
+#1 E:\OpenServer\domains\advanced\common\components\rbac\UserRoleRule.php(15): yii\db\BaseActiveRecord->__get('role')
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\BaseManager.php(208): common\components\rbac\UserRoleRule->execute(NULL, Object(yii\rbac\Role), Array)
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(134): yii\rbac\BaseManager->executeRule(NULL, Object(yii\rbac\Role), Array)
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(143): yii\rbac\PhpManager->checkAccessRecursive(NULL, 'moder', Array, Array)
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(100): yii\rbac\PhpManager->checkAccessRecursive(NULL, 'dashboard', Array, Array)
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\User.php(662): yii\rbac\PhpManager->checkAccess(NULL, 'dashboard', Array)
+#7 E:\OpenServer\domains\advanced\backend\models\LoginForm.php(81): yii\web\User->can('dashboard', Array)
+#8 E:\OpenServer\domains\advanced\backend\models\LoginForm.php(45): backend\models\LoginForm->getUser()
+#9 [internal function]: backend\models\LoginForm->validatePassword('password', NULL)
+#10 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#11 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(backend\models\LoginForm), 'password')
+#12 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Model.php(351): yii\validators\Validator->validateAttributes(Object(backend\models\LoginForm), Array)
+#13 E:\OpenServer\domains\advanced\backend\models\LoginForm.php(59): yii\base\Model->validate()
+#14 E:\OpenServer\domains\advanced\backend\controllers\SiteController.php(68): backend\models\LoginForm->login()
+#15 [internal function]: backend\controllers\SiteController->actionLogin()
+#16 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#19 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#20 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2015-06-15 23:13:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'MnNudUxuNTgBRgcXeChvVn8aPTYYXwV.dhhdIARYRnZaOg8lIzZkZw=='
+    'LoginForm' => [
+        'username' => 'anton'
+        'password' => '023307'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'gdgo934t15a71sqderfajmt366'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://advanced'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=gdgo934t15a71sqderfajmt366'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '15012'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399186.746
+    'REQUEST_TIME' => 1434399186
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:18:01 [127.0.0.1][2][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/create', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:18:01 [127.0.0.1][2][-][info][application] $_GET = [
+    'r' => 'pages/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'f63raol9b1hejns13gku49ji35'
+    '_identity' => '11e27e8bdf0c896a8374f0fb702d11952762ab638dd22dd7223e3a724b3e735ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"TShFI7gK6wIwyhMikwBbnuoBcn5PDdob\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?r=pages'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=f63raol9b1hejns13gku49ji35; _identity=11e27e8bdf0c896a8374f0fb702d11952762ab638dd22dd7223e3a724b3e735ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22TShFI7gK6wIwyhMikwBbnuoBcn5PDdob%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '16108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Fcreate'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Fcreate'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399481.801
+    'REQUEST_TIME' => 1434399481
+    'argv' => [
+        0 => 'r=pages%2Fcreate'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:18:41 [127.0.0.1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/create', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:18:41 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '16108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Fcreate'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Fcreate'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399521.754
+    'REQUEST_TIME' => 1434399521
+    'argv' => [
+        0 => 'r=pages%2Fcreate'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:19:08 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::role' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('role')
+#1 E:\OpenServer\domains\advanced\common\components\rbac\UserRoleRule.php(15): yii\db\BaseActiveRecord->__get('role')
+#2 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\BaseManager.php(208): common\components\rbac\UserRoleRule->execute(1, Object(yii\rbac\Role), Array)
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(134): yii\rbac\BaseManager->executeRule(1, Object(yii\rbac\Role), Array)
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(100): yii\rbac\PhpManager->checkAccessRecursive(1, 'admin', Array, Array)
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\User.php(662): yii\rbac\PhpManager->checkAccess(1, 'admin', Array)
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(152): yii\web\User->can('admin')
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#10 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#11 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#12 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#13 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#14 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#15 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#16 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages', Array)
+#17 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#19 {main}
+2015-06-15 23:19:08 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '16347'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399548.24
+    'REQUEST_TIME' => 1434399548
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:20:18 [127.0.0.1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/create', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:20:18 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '16595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Fcreate'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Fcreate'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399618.195
+    'REQUEST_TIME' => 1434399618
+    'argv' => [
+        0 => 'r=pages%2Fcreate'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:21:53 [127.0.0.1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/view', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:21:53 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages/view'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '16949'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Fview&id=2'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Fview&id=2'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399713.126
+    'REQUEST_TIME' => 1434399713
+    'argv' => [
+        0 => 'r=pages%2Fview&id=2'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:23:06 [127.0.0.1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/index', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:23:06 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages%2Fview&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '17229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Findex'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Findex'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399786.593
+    'REQUEST_TIME' => 1434399786
+    'argv' => [
+        0 => 'r=pages%2Findex'
+    ]
+    'argc' => 1
+]
+2015-06-15 23:23:13 [127.0.0.1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#8 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('pages/index', Array)
+#9 E:\OpenServer\domains\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\OpenServer\domains\advanced\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-06-15 23:23:13 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'pages/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"35ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_\";}'
+    'PHPSESSID' => 'vbojre96aqdf8t8r0lpitmkoa7'
+    '_identity' => '573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/web/index.php?r=pages%2Fview&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=62edb71ee4737edbd4102762a900762d8048441ae662446c219f4a91eeed89a4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2235ib4FZnMiSCT10FDk3UH6sNhIaPoXQ_%22%3B%7D; PHPSESSID=vbojre96aqdf8t8r0lpitmkoa7; _identity=573aaa495d8e4348c2c63d04f3db800b1d07f4eebca0208409bfe285085abf1da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IMyWD5fVxO0KIpNj2PPUn5D0ZDudoX-H%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '17232'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages%2Findex'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages%2Findex'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434399793.175
+    'REQUEST_TIME' => 1434399793
+    'argv' => [
+        0 => 'r=pages%2Findex'
+    ]
+    'argc' => 1
+]
+2015-06-17 22:19:12 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in E:\OpenServer\domains\advanced\backend\controllers\PagesController.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-17 22:19:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'pages'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4o385kiuubtn2heaclj42aufq1'
+    '_identity' => '11e27e8bdf0c896a8374f0fb702d11952762ab638dd22dd7223e3a724b3e735ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"TShFI7gK6wIwyhMikwBbnuoBcn5PDdob\",2592000]\";}'
+    '_csrf' => 'c144754dd944683239af956ea5a4c17957c2849f3b6f5b011be0c823f55e3b35a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5uu--jXDxQreirIavV1cYHf0_lexyIaH\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://advanced/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=4o385kiuubtn2heaclj42aufq1; _identity=11e27e8bdf0c896a8374f0fb702d11952762ab638dd22dd7223e3a724b3e735ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22TShFI7gK6wIwyhMikwBbnuoBcn5PDdob%22%2C2592000%5D%22%3B%7D; _csrf=c144754dd944683239af956ea5a4c17957c2849f3b6f5b011be0c823f55e3b35a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225uu--jXDxQreirIavV1cYHf0_lexyIaH%22%3B%7D'
+    'PATH' => 'e:\\openserver\\modules\\php\\PHP-5.4\\ext;e:\\openserver\\modules\\php\\PHP-5.4\\pear;e:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;e:\\openserver\\modules\\php\\PHP-5.4;e:\\openserver\\modules\\imagemagick;e:\\openserver\\modules\\wget\\bin;e:\\openserver\\modules\\git;e:\\openserver\\modules\\git\\bin;e:\\openserver\\modules\\git\\mingw\\bin;e:\\openserver\\modules\\git\\cmd;e:\\openserver\\modules\\database\\MySQL-5.5\\bin;e:\\openserver\\modules\\http\\Apache-2.2\\bin;e:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)'
+    'SERVER_NAME' => 'advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OpenServer/domains/advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OpenServer/domains/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '53836'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pages'
+    'REQUEST_URI' => '/backend/web/index.php?r=pages'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434568752.616
+    'REQUEST_TIME' => 1434568752
+    'argv' => [
+        0 => 'r=pages'
+    ]
+    'argc' => 1
+]
